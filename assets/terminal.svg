@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" width="1000" height="420">
+  <defs>
+    <linearGradient id="win" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B1426"/>
+      <stop offset="1" stop-color="#060D1C"/>
+    </linearGradient>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00D4FF" stop-opacity="0.8"/>
+      <stop offset="0.5" stop-color="#0EA5E9" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#00D4FF" stop-opacity="0.6"/>
+    </linearGradient>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="10" y="10" width="980" height="400" rx="14" fill="#0EA5E9" fill-opacity="0.06" filter="url(#soft)"/>
+  <rect x="10" y="10" width="980" height="400" rx="14" fill="url(#win)" stroke="url(#border)" stroke-width="1.5"/>
+
+  <!-- title bar -->
+  <path d="M10 24 a14 14 0 0 1 14 -14 H976 a14 14 0 0 1 14 14 V50 H10 Z" fill="#0F1D36"/>
+  <circle cx="38" cy="30" r="7" fill="#FF5F57"/>
+  <circle cx="62" cy="30" r="7" fill="#FEBC2E"/>
+  <circle cx="86" cy="30" r="7" fill="#28C840"/>
+  <text x="500" y="35" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#64748B">luigi@curitiba: ~/profile — zsh</text>
+
+  <g font-family="Consolas, 'Courier New', monospace" font-size="17" xml:space="preserve">
+    <!-- each line fades in, loop every 14s -->
+    <text x="36" y="88"><tspan fill="#22D3EE">luigi@dev</tspan><tspan fill="#64748B"> ~ </tspan><tspan fill="#0EA5E9">❯</tspan><tspan fill="#E2E8F0"> whoami</tspan>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.02;0.03;0.96;1" dur="14s" repeatCount="indefinite"/></text>
+    <text x="36" y="116" fill="#CBD5E1">Luigi Lúcio Mello Leitenski <tspan fill="#64748B">—</tspan> <tspan fill="#7DD3FC">Full-Stack Developer (frontend-focused)</tspan>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.08;0.09;0.96;1" dur="14s" repeatCount="indefinite"/></text>
+
+    <text x="36" y="158"><tspan fill="#22D3EE">luigi@dev</tspan><tspan fill="#64748B"> ~ </tspan><tspan fill="#0EA5E9">❯</tspan><tspan fill="#E2E8F0"> cat profile.json</tspan>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.15;0.16;0.96;1" dur="14s" repeatCount="indefinite"/></text>
+
+    <g>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.22;0.23;0.96;1" dur="14s" repeatCount="indefinite"/>
+      <text x="36" y="186" fill="#64748B">{</text>
+    </g>
+    <g>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.26;0.27;0.96;1" dur="14s" repeatCount="indefinite"/>
+      <text x="60" y="212"><tspan fill="#38BDF8">"location"</tspan><tspan fill="#64748B">:   </tspan><tspan fill="#A5F3FC">"Curitiba, Brazil"</tspan><tspan fill="#64748B">,</tspan></text>
+    </g>
+    <g>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.30;0.31;0.96;1" dur="14s" repeatCount="indefinite"/>
+      <text x="60" y="238"><tspan fill="#38BDF8">"focus"</tspan><tspan fill="#64748B">:      [</tspan><tspan fill="#A5F3FC">"Frontend"</tspan><tspan fill="#64748B">, </tspan><tspan fill="#A5F3FC">"AI Integration"</tspan><tspan fill="#64748B">, </tspan><tspan fill="#A5F3FC">"Solutions Eng."</tspan><tspan fill="#64748B">],</tspan></text>
+    </g>
+    <g>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.34;0.35;0.96;1" dur="14s" repeatCount="indefinite"/>
+      <text x="60" y="264"><tspan fill="#38BDF8">"stack"</tspan><tspan fill="#64748B">:      [</tspan><tspan fill="#A5F3FC">"React"</tspan><tspan fill="#64748B">, </tspan><tspan fill="#A5F3FC">"Next.js"</tspan><tspan fill="#64748B">, </tspan><tspan fill="#A5F3FC">"TypeScript"</tspan><tspan fill="#64748B">, </tspan><tspan fill="#A5F3FC">"Node"</tspan><tspan fill="#64748B">, </tspan><tspan fill="#A5F3FC">"Java"</tspan><tspan fill="#64748B">, </tspan><tspan fill="#A5F3FC">"PHP"</tspan><tspan fill="#64748B">],</tspan></text>
+    </g>
+    <g>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.38;0.39;0.96;1" dur="14s" repeatCount="indefinite"/>
+      <text x="60" y="290"><tspan fill="#38BDF8">"currently"</tspan><tspan fill="#64748B">:  </tspan><tspan fill="#A5F3FC">"building a marketplace end-to-end"</tspan><tspan fill="#64748B">,</tspan></text>
+    </g>
+    <g>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.42;0.43;0.96;1" dur="14s" repeatCount="indefinite"/>
+      <text x="60" y="316"><tspan fill="#38BDF8">"background"</tspan><tspan fill="#64748B">: </tspan><tspan fill="#A5F3FC">"Business &amp; Administration"</tspan><tspan fill="#64748B">,</tspan></text>
+    </g>
+    <g>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.46;0.47;0.96;1" dur="14s" repeatCount="indefinite"/>
+      <text x="60" y="342"><tspan fill="#38BDF8">"mission"</tspan><tspan fill="#64748B">:    </tspan><tspan fill="#A5F3FC">"ship products that create real impact"</tspan></text>
+    </g>
+    <g>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.50;0.51;0.96;1" dur="14s" repeatCount="indefinite"/>
+      <text x="36" y="368" fill="#64748B">}</text>
+    </g>
+
+    <g>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.55;0.56;0.96;1" dur="14s" repeatCount="indefinite"/>
+      <text x="36" y="396"><tspan fill="#22D3EE">luigi@dev</tspan><tspan fill="#64748B"> ~ </tspan><tspan fill="#0EA5E9">❯</tspan></text>
+      <rect x="152" y="381" width="10" height="20" fill="#22D3EE">
+        <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+</svg>
