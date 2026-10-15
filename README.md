@@ -77,10 +77,6 @@ I'm **Luigi**, a Full-Stack Developer from **Curitiba, Brazil** — frontend-foc
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=LuigiMello&bg_color=020617&color=00D4FF&line=00D4FF&point=FFFFFF&area=true&area_color=0EA5E9&hide_border=true&title_color=00D4FF" width="100%" alt="Activity graph"/>
-</p>
-
-<p align="center">
   <img src="https://raw.githubusercontent.com/LuigiMello/LuigiMello/output/snake-cyber.svg" width="100%" alt="contribution snake"/>
 </p>
 
